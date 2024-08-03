@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const config = {
   reactStrictMode: true,
-};
-
-module.exports = {
-  nextConfig,
   images: {
     domains: ["firebasestorage.googleapis.com"],
   },
 };
+
+module.exports = config;
