@@ -9,7 +9,8 @@ import { TextField } from "@mui/material";
 // Material UI imports
 import Chip from "@mui/material/Chip";
 import Avatar from "@mui/material/Avatar";
-
+import FaceIcon from "@mui/icons-material/Face";
+import LockIcon from "@mui/icons-material/Lock";
 import Switch from "@mui/material/Switch";
 import { useState } from "react";
 
